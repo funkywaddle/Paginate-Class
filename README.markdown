@@ -5,23 +5,23 @@ This class is a general pagination class. It's configuration can be set either b
 When you call the get() function, this class will return a 5 element array, with the keys being 'first', 'prev', 'pages', 'next', and 'last'
 
 ## What can be configured
-- First Link Text *The text of the link that points to the first page
-- Last Link Text *The text of the link that points to the last page
-- Previous Link Text *The text of the link that points to the previous page
-- Next Link Text *The text of the link that points to the next page
-- Replacement Text *This is the text you want replaced in the Pagination HREF with the page number (http://www.domain.tld/page/|page_num|/view - |page_num| would be the replacement text)
-- Pagination HREF *This is the href of the a tag that surrounds the pagination links (needs to include the Replacement Text)
-- Total items *The total number of items
-- Items per page *How many items will you be displaying per page?
-- Current page *What page is currently being displayed?
-- Number of pages *How many pages do you want displayed in your pagination links? This includes current page (see below for more details)
-- First Link Wrap Tags *The tags to wrap around the link that points to the first page
-- Last Link Wrap Tags *The tags to wrap around the link that points to the last page
-- Previous Link Wrap Tags *The tags to wrap around the link that points to the previous page
-- Next Link Wrap Tags *The tags to wrap around the link that points to the next page
-- Numeric Link Wrap Tags *The tags to wrap around the individual page number links
-- Current Page Wrap Tags *The tags to wrap around the current page text
-- Page Link Separator *The separator to put in between the page links (separate the page links with a space, bullet, dash, etc) (see below for more details)
+- First Link Text *The text of the link that points to the first page*
+- Last Link Text *The text of the link that points to the last page*
+- Previous Link Text *The text of the link that points to the previous page*
+- Next Link Text *The text of the link that points to the next page*
+- Replacement Text *This is the text you want replaced in the Pagination HREF with the page number (http://www.domain.tld/page/|page_num|/view - |page_num| would be the replacement text)*
+- Pagination HREF *This is the href of the a tag that surrounds the pagination links (needs to include the Replacement Text)*
+- Total items *The total number of items*
+- Items per page *How many items will you be displaying per page?*
+- Current page *What page is currently being displayed?*
+- Number of pages *How many pages do you want displayed in your pagination links? This includes current page (see below for more details)*
+- First Link Wrap Tags *The tags to wrap around the link that points to the first page*
+- Last Link Wrap Tags *The tags to wrap around the link that points to the last page*
+- Previous Link Wrap Tags *The tags to wrap around the link that points to the previous page*
+- Next Link Wrap Tags *The tags to wrap around the link that points to the next page*
+- Numeric Link Wrap Tags *The tags to wrap around the individual page number links*
+- Current Page Wrap Tags *The tags to wrap around the current page text*
+- Page Link Separator *The separator to put in between the page links (separate the page links with a space, bullet, dash, etc) (see below for more details)*
 
 ## The variables and their default values
 - first_link_text = '<<'

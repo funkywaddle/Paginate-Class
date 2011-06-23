@@ -40,7 +40,7 @@ When you call the get() function, this class will return a 5 element array, with
 - next_link_wrap_tags = array('open' => '', 'close' => '')
 - numeric_link_wrap_tags = array('open' => '', 'close' => '')
 - current_page_wrap_tags = array('open' => '', 'close' => '')
-- page_link_separator = '&nbsp;' *non-breaking space
+- page_link_separator = '&nbsp;' *non-breaking space*
 
 ## How to use the configure method
 To use the configure method, simply make an assoc array, where the keys are the variable name you want to set, and the values are what you wish to set them to.
